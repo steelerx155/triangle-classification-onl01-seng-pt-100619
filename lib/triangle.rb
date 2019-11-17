@@ -1,6 +1,6 @@
 class Triangle
   attr_reader :e, :i, :s
-  def initialize(e, i, s)
+  def initialize(e, i, )
     @e = e
     @i = i
     @s = s
@@ -30,4 +30,3 @@ class Triangle
 
 end
 
-# real_triangle = [(e + i > s), (e + s > i), (i + s > e)]
